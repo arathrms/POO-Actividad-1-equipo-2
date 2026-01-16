@@ -89,7 +89,7 @@ public class Actividad1POOE2 {
         System.out.println("Marca: ");
         String marcaCarro = entrada.nextLine();
         
-        System.out.print("Color: ");
+        System.out.println("Color: ");
         String colorCarro = entrada.nextLine();
         
         System.out.println("Modelo: ");
@@ -110,13 +110,13 @@ public class Actividad1POOE2 {
         Conductor conductor = new Conductor(nombreConductor, edadConductor, licencia);
         
         System.out.println("CREAR LLANTAS");
-        System.out.print("Material: ");
+        System.out.println("Material: ");
         String materialLlanta = entrada.nextLine();
         
-        System.out.print("Tamanio: ");
+        System.out.println("Tamanio: ");
         String tamanioLlanta = entrada.nextLine();
         
-        System.out.print("Marca: ");
+        System.out.println("Marca: ");
         String marcaLlanta = entrada.nextLine();
         
         Llanta llanta = new Llanta(materialLlanta,tamanioLlanta, marcaLlanta );
@@ -134,4 +134,5 @@ public class Actividad1POOE2 {
     }
 }
   
+
 
