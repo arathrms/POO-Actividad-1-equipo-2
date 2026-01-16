@@ -86,7 +86,7 @@ public class Actividad1POOE2 {
         Scanner entrada = new Scanner(System.in);
         
         System.out.println("CREAR CARRO");
-        System.out.print("Marca: ");
+        System.out.println("Marca: ");
         String marcaCarro = entrada.nextLine();
         
         System.out.print("Color: ");
@@ -134,3 +134,4 @@ public class Actividad1POOE2 {
     }
 }
   
+
