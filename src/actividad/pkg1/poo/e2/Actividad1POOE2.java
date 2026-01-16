@@ -25,7 +25,7 @@ public class Actividad1POOE2 {
         }
 
         public void atropellar() {
-            System.out.println("El carro " + marca +" " + color + " " + modelo +" ha atropellado algo.");
+            System.out.println("El carro " + marca +" " + color + " " + modelo +" ha atropellado al profe :( ");
         }
 
         public void frenar() {
@@ -134,5 +134,6 @@ public class Actividad1POOE2 {
     }
 }
   
+
 
 
